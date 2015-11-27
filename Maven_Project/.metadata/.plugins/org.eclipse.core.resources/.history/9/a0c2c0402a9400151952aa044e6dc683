@@ -1,0 +1,12 @@
+package WebViewSolutions.Hotelpro.Home;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.Assert;
+import org.testng.log4testng.Logger;
+
+import com.hotel.Utils.*;
+public class home_Page {
+	
+	
+	
+}

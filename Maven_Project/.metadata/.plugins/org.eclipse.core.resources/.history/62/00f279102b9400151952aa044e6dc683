@@ -1,0 +1,5 @@
+package WebViewSolutions.Hotelpro.Home;
+
+public @interface BeforeMethod {
+
+}

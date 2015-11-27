@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+      <class name="MavenTestCases.TestClass1">
+        <test-method status="FAIL" signature="Test1()[pri:0, instance:MavenTestCases.TestClass1@6e3c1e69]" name="Test1" duration-ms="2" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<20> but was:<15>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<20> but was:<15>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at MavenTestCases.TestClass1.Test1(TestClass1.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:MavenTestCases.TestClass1@6e3c1e69]" name="Test2" duration-ms="3" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:MavenTestCases.TestClass1@6e3c1e69]" name="Test3" duration-ms="1" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+        </test-method> <!-- Test3 -->
+        <test-method status="FAIL" signature="Test4()[pri:0, instance:MavenTestCases.TestClass1@6e3c1e69]" name="Test4" duration-ms="1" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<20> but was:<15>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<20> but was:<15>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at MavenTestCases.TestClass1.Test4(TestClass1.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- Test4 -->
+        <test-method status="FAIL" signature="Test5()[pri:0, instance:MavenTestCases.TestClass1@6e3c1e69]" name="Test5" duration-ms="1" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<20> but was:<15>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<20> but was:<15>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at MavenTestCases.TestClass1.Test5(TestClass1.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- Test5 -->
+      </class> <!-- MavenTestCases.TestClass1 -->
+      <class name="MavenTestCases.TestClass2">
+        <test-method status="FAIL" signature="MyTestFour()[pri:0, instance:MavenTestCases.TestClass2@649d209a]" name="MyTestFour" duration-ms="20" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<20> but was:<15>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<20> but was:<15>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at MavenTestCases.TestClass2.MyTestFour(TestClass2.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- MyTestFour -->
+        <test-method status="PASS" signature="MyTestThree()[pri:0, instance:MavenTestCases.TestClass2@649d209a]" name="MyTestThree" duration-ms="1" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+        </test-method> <!-- MyTestThree -->
+        <test-method status="PASS" signature="MyTestTwo()[pri:0, instance:MavenTestCases.TestClass2@649d209a]" name="MyTestTwo" duration-ms="2" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+        </test-method> <!-- MyTestTwo -->
+        <test-method status="FAIL" signature="MyTestfive()[pri:0, instance:MavenTestCases.TestClass2@649d209a]" name="MyTestfive" duration-ms="1" started-at="2015-11-26T17:24:45Z" finished-at="2015-11-26T17:24:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<20> but was:<15>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<20> but was:<15>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:365)
+	at org.testng.Assert.assertEquals(Assert.java:375)
+	at MavenTestCases.TestClass2.MyTestfive(TestClass2.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:702)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:894)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1219)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:768)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1188)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1113)
+	at org.testng.TestNG.run(TestNG.java:1025)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- MyTestfive -->
+      </class> <!-- MavenTestCases.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

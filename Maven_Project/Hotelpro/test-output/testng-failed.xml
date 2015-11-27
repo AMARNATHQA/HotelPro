@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="MavenTestCases.TestClass1">
+        <methods>
+          <include name="Test5"/>
+          <include name="Test4"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- MavenTestCases.TestClass1 -->
+      <class name="MavenTestCases.TestClass2">
+        <methods>
+          <include name="MyTestFour"/>
+          <include name="MyTestfive"/>
+        </methods>
+      </class> <!-- MavenTestCases.TestClass2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

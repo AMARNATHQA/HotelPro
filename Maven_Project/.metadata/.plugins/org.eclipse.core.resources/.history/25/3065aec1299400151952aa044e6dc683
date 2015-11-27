@@ -1,0 +1,14 @@
+package com.hotel.Home;
+
+import com.hotel.Utils.systemUtils;
+
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.Assert;
+import org.testng.log4testng.Logger;
+
+import com.hotel.Utils.*;
+public class home_Page {
+	
+	
+	
+}

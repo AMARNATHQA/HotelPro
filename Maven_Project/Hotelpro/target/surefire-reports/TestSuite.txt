@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.749 sec <<< FAILURE! - in TestSuite
+Test1(MavenTestCases.TestClass1)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<15>
+	at MavenTestCases.TestClass1.Test1(TestClass1.java:13)
+
+Test4(MavenTestCases.TestClass1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<15>
+	at MavenTestCases.TestClass1.Test4(TestClass1.java:31)
+
+Test5(MavenTestCases.TestClass1)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<15>
+	at MavenTestCases.TestClass1.Test5(TestClass1.java:37)
+
